@@ -7,7 +7,7 @@ import LogIn from "./pages/LogIn";
 import Profile from "./pages/Profile";
 import { LoaderIcon, Toaster } from "react-hot-toast";
 import useAuthStore from "./store/useAuthStore";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import useThemeStore from "./store/useThemeStore";
 
 const App = () => {
