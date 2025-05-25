@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import Chatbubble from "../assets/Chatbubble.json";
+import Chatbubble from "../assets/chatbubble.json";
 
 const Chatbubblelottie = ({ title, subtitle }) => {
   return (
