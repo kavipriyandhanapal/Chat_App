@@ -4,7 +4,7 @@ import useAuthStore from "../store/useAuthStore.js";
 import useThemeStore from "../store/useThemeStore.jsx";
 import { Send } from "lucide-react";
 import { default as preview } from "../assets/logo/preview.avif";
-import NavBar from "../components/Navbar.jsx";
+import NavHeaderBar from "../components/NavHeaderBar.jsx";
 
 const Settings = () => {
   const preview_msg = [
@@ -18,7 +18,7 @@ const Settings = () => {
 
   return (
     <div>
-      <NavBar />
+      <NavHeaderBar />
       {authUser && (
         <>
           <div className="h-screen container mx-auto px-4 pt-20 max-w-5xl">

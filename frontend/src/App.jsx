@@ -7,7 +7,7 @@ import LogIn from "./pages/LogIn";
 import Profile from "./pages/Profile";
 import { LoaderIcon, Toaster } from "react-hot-toast";
 import useAuthStore from "./store/useAuthStore";
-import NavBar from "./components/Navbar";
+import NavHeaderBar from "./components/NavHeaderBar";
 import useThemeStore from "./store/useThemeStore";
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div data-theme={theme}>
-      <NavBar />
+      <NavHeaderBar />
       <Routes>
         <Route
           path="/"

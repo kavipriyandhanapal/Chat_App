@@ -5,7 +5,7 @@ import { default as JUSTIN } from "../assets/logo/JUSTIN.jpg";
 import { PowerSquareIcon, Settings, UserPen } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const NavHeaderBar = () => {
   const { authUser, logout } = useAuthStore();
 
   return (
@@ -53,4 +53,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavHeaderBar;
