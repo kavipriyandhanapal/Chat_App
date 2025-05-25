@@ -1,4 +1,4 @@
-import NavHeaderBar from "../components/NavHeaderBar";
+import NavHeaderBar from "../components/NavHeadBar";
 import Sidebar from "../components/Sidebar";
 import InitialChatScreen from "../components/InitalChatScreen";
 import FinalChatScreen from "../components/FinalChatScreen";

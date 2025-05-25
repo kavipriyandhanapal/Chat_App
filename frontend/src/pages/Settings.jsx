@@ -4,7 +4,7 @@ import useAuthStore from "../store/useAuthStore.js";
 import useThemeStore from "../store/useThemeStore.jsx";
 import { Send } from "lucide-react";
 import { default as preview } from "../assets/logo/preview.avif";
-import NavHeaderBar from "../components/NavHeaderBar.jsx";
+import NavHeaderBar from "../components/NavHeadBar.jsx";
 
 const Settings = () => {
   const preview_msg = [
